@@ -2,7 +2,7 @@ import { ChartLineIcon, CircleDollarSignIcon, PlayCircleIcon, StarIcon, UserIcon
 import React, { useEffect, useState } from 'react'
 import { dummyDashboardData } from '../../assets/assets';
 import Loading from '../../components/Loading';
-import Title from '../../components/admin/Title.jsx';
+import Title from '../../components/admin/Title';
 import BlurCircle from '../../components/BlurCircle.jsx';
 import { dateFormat } from '../../lib/dateFormat.js';
 import { useAppContext } from '../../context/AppContext.jsx';
